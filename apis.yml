@@ -1,7 +1,20 @@
 aid: mio
 name: Mio
-description: Mio is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mio is a collaboration interoperability platform that connects the leading
+  enterprise messaging tools so teams on different platforms can work together
+  without switching apps. Positioned as Google's official interoperability
+  partner, Mio provides API-based middleware that relays messages, files, and
+  directory information between Google Chat, Microsoft Teams, Slack, and Zoom
+  Team Chat. Its products include Chat Sync (cross-platform messaging), External
+  Chat Sync (partner/federated collaboration), Directory Sync (bidirectional
+  user directory synchronization), and File Sync (shared Google Drive and
+  SharePoint links). Mio runs as native middleware built directly with the
+  platform vendors, never persistently stores user messages or files, encrypts
+  data in transit with TLS 1.2+ and at rest with AES-256, and holds SOC 2 Type
+  II certification with GDPR and CCPA controls. Mio is sold as an enterprise
+  offering rather than a self-serve public developer API; this profile captures
+  its public web, security, and support surface.
 url: https://raw.githubusercontent.com/api-evangelist/mio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +22,71 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.m.io/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Collaboration
+- Interoperability
+- Messaging
+- Enterprise
+- Directory Sync
+- Google Workspace
+- Microsoft 365
+- Slack
+- Zoom
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/mio-domain-security.yml
+- type: Website
+  url: https://www.m.io/
+- type: DeveloperPortal
+  url: https://www.m.io/
+- type: Documentation
+  url: https://messageio.atlassian.net/servicedesk/customer/portals
+- type: Support
+  url: https://messageio.atlassian.net/servicedesk/customer/portals
+- type: HelpCenter
+  url: https://messageio.atlassian.net/servicedesk/customer/portals
+- type: Blog
+  url: https://www.m.io/blog
+- type: Pricing
+  url: https://www.m.io/pricing
+- type: SignUp
+  url: https://www.m.io/contact-sales
+- type: PrivacyPolicy
+  url: https://www.m.io/privacy
+- type: TermsOfService
+  url: https://www.m.io/terms
+- type: Security
+  url: https://www.m.io/security
+- type: Compliance
+  url: https://www.m.io/security
+- type: TrustCenter
+  url: https://www.m.io/security
+- type: LLMsTxt
+  url: llms/mio-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
