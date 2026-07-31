@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://www.m.io/security
+url: https://www.m.io/security
+certifications:
+- SOC 2 Type II
+- GDPR
+- CCPA
+program:
+  data_handling: Does not persistently store user messages or files.
+  encryption_in_transit: TLS 1.2 or later
+  encryption_at_rest: AES-256 minimum; field-level encryption for sensitive data via HSM-backed AWS KMS
+  hosting: AWS us-east-1 with multi-zone redundancy
+  whitepaper: Security whitepaper available for download on the security page.
+evidence:
+- source: https://www.m.io/security
+  keywords: [soc 2 type ii, gdpr, ccpa, tls 1.2, aes-256, aws kms]
+notes: >-
+  Mio publishes a public security & compliance page acting as its trust center.
+  No dedicated trust.m.io subdomain, no /.well-known/security.txt (404), and no
+  named bug-bounty/responsible-disclosure program were found. Support/incident
+  reporting is via the Atlassian help portal.

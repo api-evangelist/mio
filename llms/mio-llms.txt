@@ -1,0 +1,32 @@
+# Mio
+
+> Mio is a collaboration interoperability platform that connects the leading enterprise messaging tools — Google Chat, Microsoft Teams, Slack, and Zoom Team Chat — so teams on different platforms can work together without switching apps. Positioned as Google's official interoperability partner, Mio provides API-based middleware that relays messages, files, and directory information between platforms. It runs as native middleware built directly with the platform vendors, never persistently stores user messages or files, encrypts data in transit (TLS 1.2+) and at rest (AES-256), and holds SOC 2 Type II certification with GDPR and CCPA controls. Mio is sold as an enterprise offering rather than a self-serve public developer API.
+
+## Products
+
+- [Chat Sync](https://www.m.io/): Cross-platform messaging between Google Chat, Microsoft Teams, Slack, and Zoom Team Chat.
+- [External Chat Sync](https://www.m.io/): Partner / federated collaboration across organizations.
+- [Directory Sync](https://www.m.io/): Bidirectional user directory synchronization.
+- [File Sync](https://www.m.io/): Shared Google Drive and SharePoint links across platforms.
+
+## Web
+
+- [Website](https://www.m.io/): Company home and product overview.
+- [Pricing](https://www.m.io/pricing): Enterprise pricing and plans.
+- [Blog](https://www.m.io/blog): Product and interoperability news.
+- [Contact Sales](https://www.m.io/contact-sales): Enterprise onboarding entry point.
+
+## Security & Compliance
+
+- [Security & Compliance](https://www.m.io/security): SOC 2 Type II, GDPR, CCPA; TLS 1.2+, AES-256 at rest, HSM-backed AWS KMS field-level encryption; hosted in AWS us-east-1. Acts as Mio's trust center.
+- [Privacy Policy](https://www.m.io/privacy)
+- [Terms of Service](https://www.m.io/terms)
+
+## Support
+
+- [Help / Service Desk](https://messageio.atlassian.net/servicedesk/customer/portals): Atlassian-hosted customer support and incident reporting.
+
+## Notes
+
+- No public developer API, OpenAPI specification, hosted MCP server, SDK, or CLI is published; Mio is enterprise middleware built directly with each platform vendor.
+- No `/.well-known/security.txt`, `/.well-known/openid-configuration`, or `/llms.txt` is served (all 404 as of 2026-07-20).
